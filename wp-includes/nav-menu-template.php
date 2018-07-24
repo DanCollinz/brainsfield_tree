@@ -121,7 +121,10 @@ function wp_nav_menu( $args = array() ) {
 	// If the menu exists, get its items.
 	if ( $menu && ! is_wp_error($menu) && !isset($menu_items) )
 		$menu_items = wp_get_nav_menu_items( $menu->term_id, array( 'update_post_term_cache' => false ) );
-
+	// 	echo "<br> <br><p>";
+	// echo "<pre>";
+	// print_r ( $menu_items);
+	// echo "</pre>";
 	/*
 	 * If no menu was found:
 	 *  - Fall back (if one was specified), or bail.
@@ -187,7 +190,6 @@ function wp_nav_menu( $args = array() ) {
 	 * @param stdClass $args              An object containing wp_nav_menu() arguments.
 	 */
 	$sorted_menu_items = apply_filters( 'wp_nav_menu_objects', $sorted_menu_items, $args );
-
 	$items .= walk_nav_menu_tree( $sorted_menu_items, $args->depth, $args );
 	unset($sorted_menu_items);
 

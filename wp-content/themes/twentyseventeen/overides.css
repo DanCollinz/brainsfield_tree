@@ -1,0 +1,236 @@
+.bransfield ul, ol {
+    margin: 0 0 00;
+    padding: 0;
+}
+
+.wrap .main-navigation {
+  display:inline-block;
+}
+.social-nav-wrap {
+display:inline-block;
+}
+
+.social-nav ul li a{
+  font-size:.75em !important;
+  font-weight:300;
+}
+
+.social-nav-wrap ul li {
+ padding:0 15px;
+ margin:0 -14px;
+}
+
+@media screen and (min-width: 48em) {
+.navigation-top {
+  font-size: .75em;
+  }
+}
+@media screen and (min-width: 30em) {
+.bransfield .page-one-column .panel-content .wrap {
+    max-width: 1000px;
+  }
+}
+@media screen and (min-width: 48em) {
+ .bransfield .admin-bar .site-navigation-fixed.navigation-top .wrap {
+    margin:0;
+  }
+}
+
+@media screen and (min-width: 48em){
+.bransfield .main-navigation a {
+    padding: 0em 1.25em 0 0;
+  }
+}
+
+.bransfield .navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+    color: #8cc43e;
+    background-color: transparent;
+}
+
+
+
+
+.bransfield .card, .card-panel {
+    margin: .5rem 0 1rem;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+ .bransfield .card, .card.large, .card.medium, .card.small {
+    position: relative;
+}
+.bransfield.card .btn, .btn-floating, .btn-large, .card, .card-panel, .collapsible, .dropdown-content, .side-nav, .toast, .z-depth-1  {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+.bransfield .card {
+    margin: .5rem 0 1rem;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.bransfield.btn, .bransfield.card, .side-nav, .z-depth-1  {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+ .bransfield .card, .card .card-image, .input-field, .tabs, nav .button-collapse {
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.solutions .card-content {
+    min-height: 180px;
+}
+.card .card-content {
+    padding: 24px;
+}
+.card .card-action:last-child, .card .card-content {
+    border-radius: 0 0 2px 2px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.card .card-action:last-child, .card .card-content {
+    border-radius: 0 0 2px 2px;
+}
+.card .card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,.2);
+    padding: 16px 24px;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.card .card-image {
+    overflow: hidden;
+}
+
+.card-image {
+    height: 200px;
+}
+
+
+.card .card-image {
+    overflow: hidden;
+}
+
+.card-image {
+    height: 200px;
+
+}
+.row {
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-right: auto;
+}
+
+
+.row .col {
+    float: left;
+    padding: 0 .75rem;
+    min-height: 1px;
+}
+
+    .row .col.l1,.row .col.l10,.row .col.l11,.row .col.l12,.row .col.l2,.row .col.l3,.row .col.l4,.row .col.l5,.row .col.l7,.row .col.l8,.row .col.l9 {
+    margin-left: auto;
+}
+
+row:after {
+    content: "";
+    display: table;
+}
+
+.clearfix, .review .rated-items .m6:nth-child(2n+1), .row:after, .toast {
+    clear: both;
+}
+.row:after {
+    /* content: ""; */
+    /* display: table; */
+}
+
+.clearfix, .review .rated-items .m6:nth-child(2n+1), .row:after, .toast {
+    clear: both;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+@media only screen and (min-width: 601px){
+.row .col.m12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) {
+.row .col.m6 {
+  width: 50%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+}
+.row .col.s12 {
+width: 100%;
+}
+ @media only screen and (min-width: 601px){
+  .row .col.m6 {
+      width: 50%;
+      margin-left: auto;
+      left: auto;
+      right: auto;
+  }
+}
+
+@media only screen and (min-width: 993px){
+.row .col.l4 {
+  width: 33.3333333333%;
+
+  }
+}
+
+@media only screen and (min-width: 993px) {
+.row .col.l1,.row .col.l10,.row .col.l11,.row .col.l12,.row .col.l2,.row .col.l3,.row .col.l4,.row .col.l5,.row .col.l7,.row .col.l8,.row .col.l9 {
+   margin-left: auto;
+   left: auto;
+   right: auto;
+}
+}
+
+.single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px !important;
+  }
+
+  .bransfield.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 1400px !important;
+    /*padding-left: 3em;
+    padding-right: 3em;*/
+}

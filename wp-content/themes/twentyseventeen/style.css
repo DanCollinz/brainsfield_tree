@@ -1,3 +1,5 @@
+@import "overides.css"; /* Using a string */
+
 /*
 Theme Name: Twenty Seventeen
 Theme URI: https://wordpress.org/themes/twentyseventeen/
@@ -3293,7 +3295,7 @@ p > object:only-child {
 	}
 
 	.page-one-column .panel-content .wrap {
-		max-width: 740px;
+		max-width: 1000px;
 	}
 
 	.panel-content .entry-header {
