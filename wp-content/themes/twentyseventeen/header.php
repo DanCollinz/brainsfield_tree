@@ -31,7 +31,7 @@
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 			<div class="navigation-top site-navigation-fixed">
 				<div class="wrap">
-						<div class="logo"><img src="https://bransfieldtree/wp-content/uploads/2018/07/cropped-cropped-Logo-100.jpg" height="50px" width="50px"></div>
+						<div class="logo"><img src="https://bransfieldtreetest/wp-content/uploads/2018/07/cropped-cropped-Logo-100.jpg" height="50px" width="50px"></div>
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 						<div class="social-nav-wrap">
 							<nav class="social-nav">
