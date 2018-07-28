@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <?php wp_head(); ?>
-<link rel='stylesheet' id='twentyseventeen-style-overide-css'  href='https://bransfieldtreetest/wp-content/themes/twentyseventeen/overides.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyseventeen-style-overide-css'  href='https://bransfieldtreetest.com/wp-content/themes/twentyseventeen/overides.css' type='text/css' media='all' />
 
 </head>
 
@@ -31,7 +31,7 @@
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 			<div class="navigation-top site-navigation-fixed">
 				<div class="wrap">
-						<div class="logo"><img src="https://bransfieldtreetest/wp-content/uploads/2018/07/cropped-cropped-Logo-100.jpg" height="50px" width="50px"></div>
+						<div class="logo"><img src="https://bransfieldtreetest.com/wp-content/uploads/2018/07/cropped-cropped-Logo-100.jpg" height="50px" width="50px"></div>
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 						<div class="social-nav-wrap">
 							<nav class="social-nav">
