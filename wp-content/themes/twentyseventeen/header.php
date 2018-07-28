@@ -14,12 +14,20 @@
 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
+<<<<<<< HEAD
 <head blah>git post_status
+=======
+<head blah>
+>>>>>>> fix-secure-issue
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <?php wp_head(); ?>
+<<<<<<< HEAD
 <link rel='stylesheet' id='twentyseventeen-style-overide-css'  href='https://bransfieldtreetest.com/wp-content/themes/twentyseventeen/overides.css' type='text/css' media='all' />
+=======
+<link rel='stylesheet' id='twentyseventeen-style-overide-css'  href='https://bransfieldtree/wp-content/themes/twentyseventeen/overides.css' type='text/css' media='all' />
+>>>>>>> fix-secure-issue
 
 </head>
 
@@ -31,7 +39,11 @@
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 			<div class="navigation-top site-navigation-fixed">
 				<div class="wrap">
+<<<<<<< HEAD
 						<div class="logo"><img src="https://bransfieldtreetest.com/wp-content/uploads/2018/07/cropped-cropped-Logo-100.jpg" height="50px" width="50px"></div>
+=======
+						<div class="logo"><img src="https://bransfieldtree/wp-content/uploads/2018/07/cropped-cropped-Logo-100.jpg" height="50px" width="50px"></div>
+>>>>>>> fix-secure-issue
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 						<div class="social-nav-wrap">
 							<nav class="social-nav">
