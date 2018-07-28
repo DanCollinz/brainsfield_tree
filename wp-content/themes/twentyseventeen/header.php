@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <?php wp_head(); ?>
-<link rel='stylesheet' id='twentyseventeen-style-overide-css'  href='https://bransfieldtree/wp-content/themes/twentyseventeen/overides.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyseventeen-style-overide-css'  href='https://bransfieldtreetest/wp-content/themes/twentyseventeen/overides.css' type='text/css' media='all' />
 
 </head>
 
