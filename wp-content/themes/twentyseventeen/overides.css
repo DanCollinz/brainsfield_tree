@@ -274,7 +274,7 @@ media screen and (min-width: 48em)
 @media screen and (min-width: 30em)
 }
   .page-one-column .panel-content .wrap {
-      max-width: 1800px;
+      max-width: 1800px!important;
   }
 }
 @media screen and (min-width: 48em)
@@ -282,7 +282,7 @@ media screen and (min-width: 48em)
   .panel-content .wrap {
       padding-bottom: 4.5em;
       padding-top: 2em;
-      max-width: 1800px;
+      max-width: 1800px!important;
   }
 }
 /* here */
